@@ -4,7 +4,7 @@ RSpec.describe CarsController do
   describe 'GET #index' do
     it 'assigns all cars as @cars' do
       car = FactoryBot.create(:car)
-      get :index
+      get '/'
       expect(assigns(:cars)).to eq([car])
     end
   end
@@ -12,7 +12,7 @@ RSpec.describe CarsController do
   describe 'GET #show' do
     it 'assigns the requested car as @car' do
       car = FactoryBot.create(:car)
-      get :show, params: {id: car.to_param}
+      get "/cars/#{car.id}"
       expect(assigns(:car)).to eq(car)
     end
   end
