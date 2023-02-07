@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_07_120506) do
+ActiveRecord::Schema[7.0].define(version: 2023_02_07_141802) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -24,7 +24,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_07_120506) do
     t.integer "efficiency"
     t.integer "price"
     t.integer "battery_size"
-    t.datetime "release_date"
+    t.string "release_date"
     t.integer "num_of_seats"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
