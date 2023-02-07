@@ -53,7 +53,6 @@ group :development, :test do
 
   gem 'dotenv-rails'
 
-  gem 'openai'
 end
 
 group :development do
