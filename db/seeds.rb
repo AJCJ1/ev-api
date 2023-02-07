@@ -20,7 +20,7 @@ Car.create(
   efficiency: 150,
   price: 40_000,
   battery_size: 81,
-  release_date: 12/05/2019,
+  release_date: "12/05/2019",
   num_of_seats: 4
 )
 puts 'Plowed, seeded, delivered'
