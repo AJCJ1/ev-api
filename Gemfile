@@ -52,6 +52,8 @@ group :development, :test do
   gem 'rails-controller-testing'
 
   gem 'dotenv-rails'
+
+  gem 'openai'
 end
 
 group :development do
