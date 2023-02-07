@@ -21,5 +21,4 @@ class Car < ApplicationRecord
             presence: true
   validates :num_of_seats,
             presence: true
-
 end
